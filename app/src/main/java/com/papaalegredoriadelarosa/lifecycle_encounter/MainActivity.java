@@ -54,8 +54,5 @@ public class MainActivity extends AppCompatActivity {
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         outState.putInt("count", count);
-
-
-        asidghfliusdgfipusgsdi;fga;sidgf
     }
 }
