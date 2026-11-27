@@ -9,6 +9,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView countText;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.d(TAG, "onStart");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         countText = findViewById(R.id.count_text);
